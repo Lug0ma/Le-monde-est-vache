@@ -1,0 +1,186 @@
+/* Général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212; /* Fond sombre */
+    color: #f5f5f5; /* Texte clair */
+    line-height: 1.6;
+}
+
+.logo {
+    max-width: 150px; /* Ajustez la taille du logo */
+    margin-right: 20px; /* Espacement à droite du logo */
+}
+/* En-tête */
+header {
+    background-color: #1e1f29;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    letter-spacing: 3px;
+    font-family: 'Rock Salt', cursive; /* Police rock */
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+    padding: 15px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6347; /* Couleur d'accent */
+}
+
+/* Section principale */
+main {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #ff6347; /* Couleur d'accent */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ff6347;
+    display: inline-block;
+}
+
+p {
+    font-size: 18px;
+    color: #ddd; /* Texte légèrement plus clair */
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+
+
+/* Bouton Instagram */
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    background-color: #e9ecef;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav {
+    display: flex; /* Utilise Flexbox pour aligner les éléments */
+    justify-content: center; /* Centre les éléments horizontalement */
+    background-color: #343a40; /* Couleur de fond de la navigation */
+    padding: 15px 0; /* Espacement vertical */
+}
+
+nav ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime le padding par défaut */
+    margin: 0; /* Supprime la marge par défaut */
+    display: flex; /* Utilise Flexbox pour la liste */
+}
+
+nav ul li {
+    margin: 0 20px; /* Espacement horizontal entre les éléments */
+}
+
+nav a {
+    color: white; /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement */
+    font-size: 18px; /* Taille de la police */
+    text-transform: uppercase; /* Met le texte en majuscules */
+    transition: color 0.3s; /* Transition pour l'effet de survol */
+}
+
+nav a:hover {
+    color: #ff6347; /* Couleur d'accent au survol */
+}
+.social-link img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.social-link:hover {
+    background-color: #ff6347; /* Couleur d'accent */
+    color: white;
+}
+
+/* Pied de page */
+footer {
+    background-color: #1e1f29;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* Conteneur de produits */
+.conteneur {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive */
+    gap: 20px; /* Espacement entre les éléments */
+    margin: auto;
+}
+
+/* Boîtes de produits */
+.box {
+    height: 300px; /* Hauteur fixe pour les produits */
+    background-color: #333; /* Fond sombre */
+    border: 2px solid #ff6347; /* Bordure des boîtes */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 20px; /* Espacement intérieur */
+    text-align: center;
+    transition: transform 0.3s; /* Transition pour l'effet de survol */
+}
+
+.box:hover {
+    transform: scale(1.05); /* Agrandissement au survol */
+}
+
+/* Tableaux */
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    border: 1px solid #ff6347; /* Bordure rouge */
+    padding: 15
+}
